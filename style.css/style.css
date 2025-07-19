@@ -58,23 +58,28 @@ main > section{
     font-weight: 600;
     color: #3A3A3A;
 }
+.naver{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
 .naver-tital{
     font-size: 3.3rem;
     font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 8px;
 }
 .naver-dis{
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 8px;
 }
 .button1{
     color: white;
     font-size: 1rem;
     font-weight: bold;
-}
-.naver{
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 100px;
+    margin-left: 8px;
 }
 .naver-img1{
     position: relative;
@@ -89,10 +94,14 @@ main > section{
     z-index: 5;
 }
  /* icon section start  */
- .app-icon{
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 10px;
+ .app-icon, .app-icon2{
+   display: flex;
+   gap: 60px;
+ }
+ .icon-section{
+    display: flex;
+    gap: 60px;
+    justify-content:center;
  }
  /* card section start  */
  .card-tital-bar{
@@ -231,10 +240,19 @@ main > section{
     .naver{
        flex-direction: column-reverse; 
     }
+    .icon-section{
+        flex-direction: column;
+    }
     .app-icon{
+        gap: 20px;
+    }
+    .app-icon2{
+        gap: 30px;
+    }
+    /* .app-icon{
        grid-template-columns: repeat(3, 1fr); 
        gap: 20px;
-    }
+    } */
     .header-contact{
         gap: 10px;
         margin-top: 15px;
@@ -250,6 +268,7 @@ main > section{
     }
     .card-a-tital{
         justify-content: flex-start;
+        margin-left: 8px;
     }
     .greac{
         flex-direction: column-reverse;
