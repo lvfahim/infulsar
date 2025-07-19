@@ -185,20 +185,20 @@ main > section{
     margin-top: 100px;
  }
  .footer-dis{
-    max-width: 100%;
     margin: 0 auto;
     color: white;
     padding: 65px;
 
  }
  .footer-tital{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
  }
  .footer-tital1 , .footer-tital2{
     font-size: 0.8rem;
     font-weight: bold;
     color: rgb(219, 217, 217);
+    margin-bottom: 8px;
  }
  .footer-icon{
     display: flex;
@@ -253,11 +253,12 @@ main > section{
     }
     .greac-text{
     width: 100%;
+    margin-left: 10px;
+    }
+    .greac-img{
+        width: 9%;
     }
     .button2{
         margin-bottom: 15px;
-    }
-    .footer-dis{
-        width: 100%;
     }
  }
