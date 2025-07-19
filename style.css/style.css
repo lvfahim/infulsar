@@ -1,0 +1,243 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* shere style  */
+.primary-but{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 15px;
+}
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* common style  */
+main > section{
+    margin-top: 100px;
+}
+.display-flex{
+    display: flex;
+}
+/* header-section start */
+.header{
+    margin-top: 87px;
+}
+.header-section{
+ justify-content: space-between;
+ align-items: center;
+}
+.header-tital{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header-contact{
+    display: flex;   
+}
+.header-link{
+    list-style: none;
+    margin-right: 25px;
+}
+.header-link-a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.naver-tital{
+    font-size: 3.3rem;
+    font-weight: bold;
+}
+.naver-dis{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.button1{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.naver{
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+.naver-img1{
+    position: relative;
+    z-index: 1;
+}
+ /* icon section start  */
+ .app-icon{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+ }
+ /* card section start  */
+ .card-tital-bar{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #3A3A3A;
+ }
+ .card-responsive{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+ }
+ .card{
+    max-width: 329px;
+    max-height: 476px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+ }
+ .card-col{
+    padding: 8px 14px;
+ }
+ .star{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+
+ }
+ .card-tital{
+    font-size: 1.9rem;
+    font-weight:600;
+    margin-top:  5px;
+    margin-bottom: 5px;
+ }
+ .card-prize{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top:  5px;
+    margin-bottom: 5px;
+ }
+ .card-diss{
+    color: rgba(128, 128, 128, 0.589)/50%;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 3px;
+ }
+ .card-a-tital{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+ }
+ .card-a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #E02C6D;
+ }
+ /* Greac section start  */
+ .greac{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ }
+ .greac-tital{
+    font-size: 2.2rem;
+    font-weight: bold;
+ }
+ .greac-dis{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: bold;
+ }
+ .greac-text{
+    width: 50%;
+ }
+ .button2{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-top: 10px;
+ }
+ /* footer section start  */
+ footer{
+    background-color: #0A0826;
+    text-align: center;
+    margin-top: 100px;
+ }
+ .footer-dis{
+    max-width: 450px;
+    margin: 0 auto;
+    color: white;
+    padding: 65px;
+
+ }
+ .footer-tital{
+    font-size: 1.5rem;
+    font-weight: bold;
+ }
+ .footer-tital1 , .footer-tital2{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(219, 217, 217);
+ }
+ .footer-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 8px;
+ }
+ 
+
+ /* modile devive  */
+ @media screen and (max-width:576px) {
+    .header{
+        padding: 10px;
+    }
+    main{
+        padding: 10px;
+    }
+    .header-section,
+    .header-contact
+    {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .naver{
+       flex-direction: column-reverse; 
+    }
+    .app-icon{
+       grid-template-columns: repeat(4, 1fr); 
+       gap: 20px;
+    }
+    .header-contact{
+        gap: 10px;
+        margin-top: 15px;
+        margin-bottom:10px;
+    }
+    .card-responsive{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .card-a-tital{
+        justify-content: flex-start;
+    }
+    .greac{
+        flex-direction: column-reverse;
+    }
+    .greac-text{
+    width: 100%;
+    }
+    .button2{
+        margin-bottom: 15px;
+    }
+ }
