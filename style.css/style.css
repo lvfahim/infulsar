@@ -171,6 +171,9 @@ main > section{
  .greac-text{
     width: 50%;
  }
+ .greac-img{
+        width: 100%;
+    }
  .button2{
     font-size: 1rem;
     color: white;
@@ -252,7 +255,7 @@ main > section{
         flex-direction: column-reverse;
     }
     .greac-text{
-    width: 100%;
+    width: 97%;
     margin-left: 10px;
     }
     .greac-img{
