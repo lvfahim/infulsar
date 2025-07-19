@@ -79,6 +79,7 @@ main > section{
 .naver-img1{
     position: relative;
     z-index: 1;
+    
 }
  /* icon section start  */
  .app-icon{
@@ -203,6 +204,9 @@ main > section{
     .header{
         padding: 10px;
     }
+    .naver-img1{
+        width: 100%;
+    }
     main{
         padding: 10px;
     }
@@ -239,5 +243,8 @@ main > section{
     }
     .button2{
         margin-bottom: 15px;
+    }
+    .footer-dis{
+        width: 100%;
     }
  }
